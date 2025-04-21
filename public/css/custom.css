@@ -1,0 +1,196 @@
+body {
+    background: linear-gradient(to right, #243b80, #ffffff);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #243b80;
+}
+
+.wrapper {
+    background: transparent;
+}
+
+.content-wrapper {
+    background: transparent;
+    padding: 20px;
+}
+
+/* Untuk tombol back to top biar serasi juga */
+.back-to-top {
+    background-color: #243b80;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top:hover {
+    background-color: #1c2f66;
+}
+
+.main-header {
+    background: rgba(
+        36,
+        59,
+        128,
+        0.8
+    ); /* warna biru transparan agar cocok dengan gradasi */
+    color: white;
+    box-shadow: none;
+    border-bottom: none;
+}
+
+.main-header .nav-link,
+.main-header .nav-link i,
+.main-header .user-panel .info a,
+.main-header .user-panel p {
+    color: white !important;
+}
+
+.main-header .user-panel .image img {
+    border: 2px solid white;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.85); /* putih semi-transparan */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #243b80;
+}
+
+.card-header {
+    background-color: rgba(36, 59, 128, 0.9); /* biru semi-transparan */
+    color: white;
+    border-bottom: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-tools .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+    color: #243b80;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #243b80;
+    color: white;
+    border-radius: 6px 6px 0 0;
+}
+
+.tab-content {
+    border-radius: 0 0 12px 12px;
+    padding: 20px;
+}
+
+/* Alerts */
+.alert-success,
+.alert-danger {
+    border-radius: 8px;
+    font-weight: 500;
+}
+/* Sidebar utama */
+.main-sidebar {
+    background: rgba(36, 59, 128, 0.95); /* biru gelap semi-transparan */
+    color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Brand */
+.brand-link {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.brand-link:hover {
+    color: #dfe6ff;
+}
+
+/* User panel */
+.user-panel .info a {
+    color: white;
+    font-weight: 500;
+}
+
+.user-panel .info a:hover {
+    color: #dfe6ff;
+}
+
+/* Search bar */
+.form-control-sidebar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+}
+
+.form-control-sidebar::placeholder {
+    color: #ccc;
+}
+
+.btn-sidebar {
+    color: white;
+}
+
+/* Sidebar menu */
+.nav-sidebar .nav-link {
+    color: #cdd3f5;
+    transition: background-color 0.3s ease;
+}
+
+.nav-sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+.nav-sidebar .nav-link.active {
+    background-color: #ffffff;
+    color: #243b80;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.nav-icon {
+    color: inherit;
+}
+
+.sidebar-logo-image {
+    opacity: 0.8;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.nav-item-title {
+    display: inline;
+    margin: 0;
+    white-space: normal;
+}
+
+.wrap-text {
+    max-width: 350px; /* Sesuaikan dengan kebutuhan */
+    white-space: normal !important;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.table td,
+.table th {
+    vertical-align: top;
+}
+.btn-tambah-akun {
+    margin-right: 10px;
+}
